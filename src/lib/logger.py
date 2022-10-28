@@ -7,7 +7,7 @@ import os
 import time
 import sys
 import torch
-import subprocess
+import subprocess_TraDeS as subprocess
 USE_TENSORBOARD = True
 try:
   import tensorboardX

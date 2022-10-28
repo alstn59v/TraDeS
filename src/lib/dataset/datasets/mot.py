@@ -42,6 +42,9 @@ class MOT(GenericDataset):
     self.num_samples = len(self.images)
     print('Loaded MOT {} {} {} samples'.format(
       self.dataset_version, split, self.num_samples))
+    
+    print('===========> img_dir :', img_dir)
+    print('===========> ann_path :', ann_path)
 
   def _to_float(self, x):
     return float("{:.2f}".format(x))
