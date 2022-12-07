@@ -1,0 +1,441 @@
+MotChallenge2DBox
+seqmaps
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/seqmaps/data/C1_29-2.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 205, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File C1_29-2.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+seqmaps
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/seqmaps/data/C1_29-2.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 206, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File C1_29-2.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+seqmaps
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/seqmaps/data/C1_29-2.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 206, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File C1_29-2.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+seqmaps
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 328, in get_preprocessed_seq_data
+    self._check_unique_ids(raw_data)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/datasets/_base_dataset.py", line 326, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Ground-truth has the same ID more than once in a single timestep (seq: C5_15-2, frame: 1282, ids: 42)
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/trackers/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
+MotChallenge2DBox
+C5_15-2.txt
+Traceback (most recent call last):
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/eval.py", line 156, in evaluate
+    utils.write_summary_results(summaries, c_cls, output_fol)
+  File "/home/pmi-minos-3090-single/Documents/TraDeS/src/tools/TrackEval/trackeval/utils.py", line 101, in write_summary_results
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
+  File "/home/pmi-minos-3090-single/anaconda3/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/pmi-minos-3090-single/Documents/TraDeS/src/lib/../../exp/tracking/default/results/C5_15-2.txt'
+
+
+
+
+
